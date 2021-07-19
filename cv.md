@@ -13,3 +13,19 @@
 I am 28 y.o. and for now I am an aspiring front-end developer. My specialty is infocommunication systems engineer. I have been working as a system administrator of computer networks for 3 years. Мy further goal is to progress in front-end development.
 
 ---
+## Skills
+
+### Hard Skils
+
+- HTML/CSS
+- Git
+- JS
+- Linux
+
+### Soft Skils
+
+- Sociability
+- Friendliness
+- Ability to work in a team
+
+---
