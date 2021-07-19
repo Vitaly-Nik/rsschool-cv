@@ -66,3 +66,17 @@ I am 28 y.o. and for now I am an aspiring front-end developer. My specialty is i
 ```
 
 ---
+## Education
+
+- Cisco Certified Network Associate (CCNA) Routing and Switching
+- Belarusian State Academy of Telecommunications - Infocommunication Systems Engineer
+- [HTML For beginners](https://ru.code-basics.com/laguages/html)
+- [CSS For beginners](https://ru.code-basics.com/languages/css)
+- [JS For beginners](https://ru.code-basics.com/languages/javascript)
+- [Freelancer Life Style (HTML,CSS, js)](https://www.youtube.com/c/FreelancerLifeStyle)
+
+---
+
+## English level
+
+**At the moment my level is A2**
