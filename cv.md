@@ -29,3 +29,40 @@ I am 28 y.o. and for now I am an aspiring front-end developer. My specialty is i
 - Ability to work in a team
 
 ---
+## Sample code
+
+```
+
+  let headingTableBuyPrice = document.querySelector(
+    "table.table.table-responsive.table-bordered.table-hover.table-striped"
+  ).children[0].children[0].children[2].innerText;
+  document.querySelector(
+    "table.table.table-responsive.table-bordered.table-hover.table-striped"
+  ).children[0].children[0].children[2].innerText = `${headingTableBuyPrice}\n(Desired Selling Price)`;
+
+  let allStringItemBuyPrice = document.querySelector(
+    "table.table.table-responsive.table-bordered.table-hover.table-striped"
+  ).children[0].children;
+
+  let h = 1;
+  while (h >= 1 && h <= allStringItemBuyPrice.length - 1) {document.querySelector(
+      "table.table.table-responsive.table-bordered.table-hover.table-striped"
+    ).children[0].children[h].children[2].className = "text-center";
+
+    let itemBuyPrice = document.querySelector("table.table.table-responsive.table-bordered.table-hover.table-striped").children[0].children[h].children[2].innerText;
+
+    let stateByOrder = document.querySelector("table.table.table-responsive.table-bordered.table-hover.table-striped").children[0].children[h].children[3].innerText;
+
+    if (stateByOrder === "Active") {
+      let numberItemBuyPrice = itemBuyPrice.substring(1, itemBuyPrice.length);
+      let desSelPrice = ((numberItemBuyPrice * 100) / 95.05).toFixed(2);
+
+      document.querySelector(
+        "table.table.table-responsive.table-bordered.table-hover.table-striped"
+      ).children[0].children[h].children[2].innerText = `${itemBuyPrice} | (>$${desSelPrice})`;
+    }
+    h = h + 1;
+  }
+```
+
+---
