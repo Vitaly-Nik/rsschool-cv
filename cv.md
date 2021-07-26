@@ -15,14 +15,14 @@ I am 28 y.o. and for now I am an aspiring front-end developer. My specialty is i
 ---
 ## Skills
 
-### Hard Skils
+### Hard Skills
 
 - HTML/CSS
 - Git
 - JS
 - Linux
 
-### Soft Skils
+### Soft Skills
 
 - Sociability
 - Friendliness
