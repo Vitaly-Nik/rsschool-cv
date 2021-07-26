@@ -1,2 +1,2 @@
 # rsschool-cv
-https://vitaly-nik.github.io/rsschool-cv/cv
+https://vitaly-nik.github.io/rsschool-cv/
