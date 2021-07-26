@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header_content">
+          <img class="photo" src="img/avatar.jpg" alt="photo" />
+          <div class="info">
+            <div><h1 class="name">Vitaly Nikitsenkau</h1></div>
+            <div><h2 class="job">System Administrator</h2></div>
+            <div><h3 class="location">Belarus, Brest</h3></div>
+          </div>
+          <div class="contacts">
+            <ul class="contacts_list">
+              <li class="mail">e-mail: nikitalik93@mail.ru</li>
+              <li class="discord">discord: Vitaly-Nik (@Vitaly-Nik)</li>
+              <li class="tel">tel: +375(29)222-66-00</li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div>
+          <h2 class="summary">Summary</h2>
+          <p class="text">
+            I am 28 y.o. and for now I am an aspiring front-end developer. My specialty is infocommunication systems engineer. I have been working as
+            a system administrator of computer networks for 3 years. Мy further goal is to progress in front-end development.
+          </p>
+        </div>
+        <hr />
+        <div class="skills">
+          <h2>Skills</h2>
+          <div class="hard">
+            <h3>Hard Skills</h3>
+            <ul class="hard_list">
+              <li class=>HTML</li>
+              <li class=>CSS</li>
+              <li class=>JS</li>
+              <li class=>Git</li>
+              <li class=>Linux</li>
+            </ul>
+          </div>
+          <div class="soft">
+            <h3>Soft Skills</h3>
+            <ul class="soft_list">
+              <li class="soc">Sociability</li>
+              <li class="friend">Friendliness</li>
+              <li class="ability">Ability to work in a team</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="code">
+          <h2>Sample Code</h2>
+          <pre>
+                  let headingTableBuyPrice = document.querySelector(
+                    "table.table.table-responsive.table-bordered.table-hover.table-striped"
+                  ).children[0].children[0].children[2].innerText;
+                  document.querySelector(
+                    "table.table.table-responsive.table-bordered.table-hover.table-striped"
+                  ).children[0].children[0].children[2].innerText = `${headingTableBuyPrice}\n(Desired Selling Price)`;
+                
+                  let allStringItemBuyPrice = document.querySelector(
+                    "table.table.table-responsive.table-bordered.table-hover.table-striped"
+                  ).children[0].children;
+                
+                  let h = 1;
+                  while (h >= 1 && h <= allStringItemBuyPrice.length - 1) {document.querySelector(
+                      "table.table.table-responsive.table-bordered.table-hover.table-striped"
+                    ).children[0].children[h].children[2].className = "text-center";
+                
+                    let itemBuyPrice = document.querySelector("table.table.table-responsive.table-bordered.table-hover
+                    .table-striped").children[0].children[h].children[2].innerText;
+                
+                    let stateByOrder = document.querySelector("table.table.table-responsive.table-bordered.table-hover
+                    .table-striped").children[0].children[h].children[3].innerText;
+                
+                    if (stateByOrder === "Active") {
+                      let numberItemBuyPrice = itemBuyPrice.substring(1, itemBuyPrice.length);
+                      let desSelPrice = ((numberItemBuyPrice * 100) / 95.05).toFixed(2);
+                
+                      document.querySelector(
+                        "table.table.table-responsive.table-bordered.table-hover.table-striped"
+                      ).children[0].children[h].children[2].innerText = `${itemBuyPrice} | (>$${desSelPrice})`;
+                    }
+                    h = h + 1;
+                  }
+          </pre>
+        </div>
+        <hr />
+        <div class="education">
+          <h2>Education</h2>
+          <ul class="education_list">
+            <li>Cisco Certified Network Associate (CCNA) Routing and Switching</li>
+            <li>Belarusian State Academy of Communications - Infocommunication Systems Engineer</li>
+            <li><a href="https://ru.code-basics.com/languages/html">HTML For beginners</a></li>
+            <li><a href="https://ru.code-basics.com/languages/css">CSS For beginners</a></li>
+            <li><a href="https://ru.code-basics.com/languages/javascript">JS For beginners</a></li>
+            <li><a href="https://www.youtube.com/c/FreelancerLifeStyle">Freelancer Life Style (HTML,CSS, js)</a></li>
+          </ul>
+        </div>
+        <hr />
+        <div class="english">
+          <h2>English level</h2>
+          <p class="text">At the moment my level is A2</p>
+        </div>
+      </main>
+      <footer>
+        <div class="footer_content">
+          <a class="rs_link" href="https://rs.school/js/"><img class="rs_school" src="img/icon/rs_school_js.svg" alt="rs_school_js" /></a>
+          <time class="time" datetime="2021-07-26">2021</time>
+          <a class="github_link" href="https://github.com/Vitaly-Nik"><img class="github" src="img/icon/github.svg" alt="github_VItaly-Nik" /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

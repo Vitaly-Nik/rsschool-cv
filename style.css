@@ -1,0 +1,193 @@
+body {
+  padding: 100px 0 100px 0;
+  max-width: 1000px;
+  margin: 0px auto;
+  font-family: monospace;
+  background: url("img/bg_repeat.jpg");
+}
+header {
+  height: 150px;
+  background-color: rgb(62, 133, 106);
+  border-radius: 10px;
+}
+main {
+  font-size: large;
+}
+main h2 {
+  width:max-content;
+  position: relative;
+  left: 420px;
+}
+h1 {
+  width:max-content;
+  text-transform: uppercase;
+}
+h2 {
+  width:max-content;
+  text-transform: uppercase;
+}
+h3 {
+  margin-left: 10px;
+}
+pre {
+  width:max-content;
+  position: relative;
+  right: 80px;
+}
+.container {
+  border-radius: 10px;
+  background-color: rgb(230, 230, 230);
+}
+.header_content {
+  font-size: large;
+}
+.photo {
+  width:max-content;
+  position: relative;
+  height: 100px;
+  top: 25px;
+  left: 40px;
+  border-radius: 75%;
+}
+.info {
+}
+.name {
+  width:max-content;
+  position: relative;
+  bottom: 110px;
+  left: 230px;
+}
+.job {
+  width:max-content;
+  position: relative;
+  bottom: 120px;
+  left: 230px;
+}
+.location {
+  width:max-content;
+  position: relative;
+  bottom: 120px;
+  left: 220px;
+}
+.contacts {
+  width:max-content;
+  position: relative;
+  bottom: 220px;
+  left: 620px;
+}
+.contacts h2 {
+  margin-left: 25px;
+}
+.contacts_list li:nth-child(1) {
+  padding-left: 25px;
+  background: url("img/icon/mail.svg") left no-repeat;
+  background-size: 17px;
+}
+.contacts_list li:nth-child(2) {
+  padding-left: 25px;
+  background: url("img/icon/discord.svg") left no-repeat;
+  background-size: 17px;
+}
+.contacts_list li:nth-child(3) {
+  padding-left: 25px;
+  background: url("img/icon/phone.svg") left no-repeat;
+  background-size: 17px;
+}
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+.skills {
+  height: 200px;
+}
+.hard {
+  width:max-content;
+  position: relative;
+  left: 210px;
+}
+.hard_list li:nth-child(1) {
+  padding-left: 25px;
+  background: url("img/icon/html.svg") left no-repeat;
+}
+.hard_list li:nth-child(2) {
+  padding-left: 25px;
+  background: url("img/icon/css.svg") left no-repeat;
+}
+.hard_list li:nth-child(3) {
+  padding-left: 25px;
+  background: url("img/icon/js.svg") left no-repeat;
+}
+.hard_list li:nth-child(4) {
+  padding-left: 25px;
+  background: url("img/icon/git.svg") left no-repeat;
+}
+.hard_list li:nth-child(5) {
+  padding-left: 25px;
+  background: url("img/icon/linux.svg") left no-repeat;
+}
+
+.soft {
+  width:max-content;
+  position: relative;
+  bottom: 152px;
+  left: 600px;
+}
+
+footer {
+  height: 100px;
+  border-radius: 10px;
+  background-color: rgb(62, 133, 106);
+}
+.footer_content {
+  width:max-content;
+  position: relative;
+  left: 310px;
+}
+.time {
+  width:max-content;
+  position: relative;
+  bottom: 15px;
+  font-size: 30px;
+  margin: 0px 20px 0px 20px;
+}
+
+.rs_school {
+  width:max-content;
+  position: relative;
+  top: 4px;
+  width: 150px;
+}
+
+.github {
+  width:max-content;
+  position: relative;
+  top: 10px;
+  height: 75px;
+}
+.education_list li:nth-child(1) {
+  padding-left: 25px;
+  background: url("img/icon/cisco.svg") left no-repeat;
+  background-size: 20px;
+}
+.education_list li:nth-child(2) {
+  padding-left: 25px;
+  background: url("img/icon/bsac_logo.svg") left no-repeat;
+  background-size: 17px;
+}
+.education_list li:nth-child(3) {
+  padding-left: 25px;
+  background: url("img/icon/html.svg") left no-repeat;
+}
+.education_list li:nth-child(4) {
+  padding-left: 25px;
+  background: url("img/icon/css.svg") left no-repeat;
+}
+.education_list li:nth-child(5) {
+  padding-left: 25px;
+  background: url("img/icon/js.svg") left no-repeat;
+}
+.education_list li:nth-child(6) {
+  padding-left: 25px;
+  background: url("img/like.png") left no-repeat;
+  background-size: 17px;
+}
